@@ -1,0 +1,317 @@
+2020-10-25T07:27:51+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T07:27:51+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T07:27:51+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T07:27:51+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T07:27:53+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T07:49:35+00:00 CRITICAL Uncaught Error: Call to undefined function get_orders_id_from_product_id() in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:378
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(287): my_cpt_column('thumb', 61)
+#1 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test\wp-admin\includes\class-wp-posts-list-table.php(1271): do_action('manage_product_...', 'thumb', 61)
+#4 C:\xampp\htdocs\test\wp-admin\includes\class-wp-list-table.php(1410): WP_Posts_List_Table->column_default(Object(WP_Post), 'thumb')
+#5 C:\xampp\htdocs\test\wp-admin\includes\class-wp-posts-list-table.php(1304): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\test\wp-admin\includes\class-wp-posts-list-table.php(751): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 C:\xampp\htdocs\test\wp-admin\includes\class-wp-posts-list-table.php(728): WP_P in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 378
+
+2020-10-25T08:17:35+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 374
+
+2020-10-25T08:17:35+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 374
+
+2020-10-25T08:17:37+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 374
+
+2020-10-25T08:17:44+00:00 CRITICAL Uncaught Error: Call to a member function get_backorders() on null in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:373
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-settings.php(514): include()
+#1 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T08:17:57+00:00 CRITICAL Uncaught Error: Call to a member function get_backorders() on null in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:373
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-settings.php(514): include()
+#1 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T08:18:04+00:00 CRITICAL Uncaught Error: Call to a member function get_menu_order() on null in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:373
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-settings.php(514): include()
+#1 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T08:18:19+00:00 CRITICAL Uncaught Error: Call to a member function get_menu_order() on null in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:373
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-settings.php(514): include()
+#1 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T08:18:28+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T08:18:34+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T08:26:49+00:00 CRITICAL Object of class WP_Post could not be converted to string in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 379
+
+2020-10-25T08:26:57+00:00 CRITICAL Object of class WP_Post could not be converted to string in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 379
+
+2020-10-25T08:26:59+00:00 CRITICAL Object of class WP_Post could not be converted to string in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 379
+
+2020-10-25T08:27:05+00:00 CRITICAL Object of class WP_Post could not be converted to string in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 379
+
+2020-10-25T08:27:07+00:00 CRITICAL Object of class WP_Post could not be converted to string in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 379
+
+2020-10-25T08:27:18+00:00 CRITICAL Object of class WP_Post could not be converted to string in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 379
+
+2020-10-25T08:27:30+00:00 CRITICAL Object of class WP_Post could not be converted to string in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 379
+
+2020-10-25T08:27:31+00:00 CRITICAL Object of class WP_Post could not be converted to string in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 379
+
+2020-10-25T08:27:46+00:00 CRITICAL Object of class WP_Post could not be converted to string in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 379
+
+2020-10-25T08:29:53+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:374
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-settings.php(514): include()
+#1 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 374
+
+2020-10-25T08:29:54+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:374
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-settings.php(514): include()
+#1 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 374
+
+2020-10-25T08:29:55+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:374
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-settings.php(514): include()
+#1 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 374
+
+2020-10-25T08:29:56+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:374
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-settings.php(514): include()
+#1 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 374
+
+2020-10-25T08:40:33+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 377
+
+2020-10-25T08:40:53+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T08:41:15+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 372
+
+2020-10-25T08:42:28+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 374
+
+2020-10-25T08:42:50+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 374
+
+2020-10-25T08:43:18+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 370
+
+2020-10-25T08:43:27+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 370
+
+2020-10-25T08:46:47+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(370): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(287): my_cpt_column('thumb', 61)
+#4 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\test\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\test\wp-admin\includes\class-wp-posts-list-table.php(1271): do_action('manage_product_...', 'thumb', 61)
+#7 C:\xampp\htdocs\test\wp-admin\includes\class-wp-list-table.php(1410): in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:47:06+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(370): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(287): my_cpt_column('thumb', 61)
+#4 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\test\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\test\wp-admin\includes\class-wp-posts-list-table.php(1271): do_action('manage_product_...', 'thumb', 61)
+#7 C:\xampp\htdocs\test\wp-admin\includes\class-wp-list-table.php(1410): in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:48:30+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(370): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(287): my_cpt_column('thumb', 61)
+#4 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\test\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\test\wp-admin\includes\class-wp-posts-list-table.php(1271): do_action('manage_product_...', 'thumb', 61)
+#7 C:\xampp\htdocs\test\wp-admin\includes\class-wp-list-table.php(1410): in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:51:11+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 378
+
+2020-10-25T08:51:17+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(375): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:51:25+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(375): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:51:46+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(375): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:52:35+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(375): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:52:48+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(375): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:53:46+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(368): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:53:48+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(368): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:54:04+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(375): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T08:54:04+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:105
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php(375): WC_Abstract_Order->__construct(61)
+#3 C:\xampp\htdocs\test\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 105
+
+2020-10-25T09:52:42+00:00 CRITICAL syntax error, unexpected 'global' (T_GLOBAL), expecting variable (T_VARIABLE) or '$' in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 365
+
+2020-10-25T09:59:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_orders_ids_by_product_id() in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:377
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-settings.php(514): include()
+#1 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 377
+
+2020-10-25T10:00:05+00:00 CRITICAL Uncaught Error: Call to undefined function get_orders_ids_by_product_id() in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php:377
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-settings.php(514): include()
+#1 C:\xampp\htdocs\test\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 377
+
+2020-10-25T10:00:49+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 377
+
+2020-10-25T10:16:44+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T10:16:45+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
+2020-10-25T10:16:47+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in C:\xampp\htdocs\test\wp-content\themes\twentynineteen\functions.php on line 373
+
